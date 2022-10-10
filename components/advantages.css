@@ -1,0 +1,7 @@
+.advantages-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 80px;
+  text-align: center;
+}

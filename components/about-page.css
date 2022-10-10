@@ -1,0 +1,28 @@
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 111px;
+}
+.about-text {
+  width: 55%;
+}
+.title-about {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  color: #212121;
+}
+
+.about-info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #212121;
+  margin-top: 60px;
+}
+
+.about-image {
+  padding: 45px 86px;
+  background: #f4f4f4;
+}

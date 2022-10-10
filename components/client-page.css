@@ -1,0 +1,117 @@
+.client-page {
+  background-image: url(../img/client.png);
+  width: 100%;
+  height: 769px;
+  background-size: cover;
+  object-fit: cover;
+  margin-top: 111px;
+}
+.client-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 146px;
+}
+.client-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 120px !important;
+  margin-bottom: 40px;
+}
+.client-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.send-app {
+  background: #f4f4f4;
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name-app {
+  width: 510px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #333333;
+  border: none;
+  opacity: 0.4;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+  margin: 25px 60px 16px 60px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#email-inp {
+  width: 510px;
+  height: 55px;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #333333;
+  opacity: 0.4;
+  margin: 0px 60px;
+}
+
+.check-input_background {
+  display: flex;
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+  margin: 25px 10px 0px 60px;
+}
+
+.permission {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+  margin: 24px 0 0 0;
+}
+
+.send-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 40px;
+  gap: 10px;
+  background: #ff5900;
+  backdrop-filter: blur(2.5px);
+  border-radius: 100px;
+  margin: 40px 60px 60px;
+  border: none;
+}
+.send-btn:focus {
+  border: none;
+  outline: none;
+}

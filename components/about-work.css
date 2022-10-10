@@ -1,0 +1,30 @@
+.tab-work {
+  background: #ffffff;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.tab-work .nav-tabs .nav-link.active {
+  background: #ff5900;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+.tab-work .tab-content .tab-pane {
+  background: #ffffff;
+  color: #212121;
+}
+.tab-work .tab-pane p {
+  text-align: left;
+  padding: 0;
+}
+.nav-work-about {
+  display: flex;
+  justify-content: space-between;
+}
+.about-work {
+  width: 100%;
+}
+.nav-work-about ul li {
+  text-align: left;
+}
+.tab-pane {
+  text-align: left;
+}

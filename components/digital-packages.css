@@ -1,0 +1,98 @@
+.subheader-h1 {
+  display: flex;
+  font-weight: 700;
+  font-size: 38px;
+  color: #000000;
+  flex-grow: 0;
+  padding: 111px 0 60px 0;
+}
+.subheader-h1 p {
+  color: #ff5900;
+  padding-right: 5px;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  padding: 40px 52px;
+}
+
+.card-1 {
+  background: url(../img/card-1.png) no-repeat center center;
+  height: 486px;
+}
+.card-2 {
+  background: url(../img/card-2.png) no-repeat center center;
+  height: 486px;
+}
+.card-3 {
+  background: url(../img/card-3.png) no-repeat center center;
+  height: 486px;
+}
+.card-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-height: 51px;
+}
+.card-p::before {
+  position: absolute;
+  width: 296px;
+  height: 1px;
+  left: 32px;
+  top: 118px;
+  content: "";
+  background: #ffffff;
+  opacity: 0.2;
+}
+.card-p-2 {
+  margin-top: 49px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.card-p-2::before {
+  position: absolute;
+  width: 296px;
+  height: 1px;
+  left: 32px;
+  top: 203px;
+  content: "";
+  background: #ffffff;
+  opacity: 0.2;
+}
+.card-p-3 {
+  margin-top: 41px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.card-p-4 {
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+.card-button {
+  position: absolute;
+  border: 1px solid #ff5900;
+  width: 296px;
+  height: 52px;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+  color: #ff5900;
+}
+.card-button:hover {
+  color: #ff5900;
+}
